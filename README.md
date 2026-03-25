@@ -1,6 +1,6 @@
-# 🏦 Banking Analytics: SQL Analysis
+# Banking Analytics: SQL Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes a banking dataset to uncover insights across the **entire customer lifecycle**, including:
 
@@ -15,21 +15,21 @@ The goal is to simulate a **real-world business analytics scenario** and derive 
 
 ---
 
-## 🧱 Data Model
+## Data Model
 
 The project is structured using a **star schema approach**:
 
-### 🔹 Fact Tables
+### Fact Tables
 
 * `fact_banking_transactions` → 1 row per transaction
 * `fact_loans` → 1 row per loan
 
-### 🔹 Dimension Tables
+### Dimension Tables
 
 * `dim_banking_customers` → customer attributes
 * `dim_banking_accounts` → account details
 
-### 🔹 Data Cleaning Views
+### Data Cleaning Views
 
 * `clean_transactions`
 * `clean_accounts`
@@ -37,7 +37,7 @@ The project is structured using a **star schema approach**:
 
 ---
 
-## ⚙️ Data Preparation
+##  Data Preparation
 
 Key transformations performed:
 
@@ -54,11 +54,11 @@ Key transformations performed:
 
 ---
 
-## 📊 Analysis Phases
+## Analysis Phases
 
 ---
 
-### 🔹 Phase 1 — Growth & Revenue Trends
+### Phase 1 — Growth & Revenue Trends
 
 **Key Questions:**
 
@@ -74,7 +74,7 @@ Key transformations performed:
 
 ---
 
-### 🔹 Phase 2 — Customer Profitability
+### Phase 2 — Customer Profitability
 
 **Key Questions:**
 
@@ -90,7 +90,7 @@ Key transformations performed:
 
 ---
 
-### 🔹 Phase 3 — Loan Risk & Default Analysis
+### Phase 3 — Loan Risk & Default Analysis
 
 **Key Questions:**
 
@@ -106,7 +106,7 @@ Key transformations performed:
 
 ---
 
-### 🔹 Phase 4 — Operational Efficiency
+### Phase 4 — Operational Efficiency
 
 **Key Questions:**
 
@@ -123,7 +123,7 @@ Key transformations performed:
 
 ---
 
-### 🔹 Phase 5 — Churn & Retention
+### Phase 5 — Churn & Retention
 
 **Churn Definition:**
 
@@ -146,17 +146,17 @@ Key transformations performed:
 
 ---
 
-## 🔥 Key Business Findings
+## Key Business Findings
 
-* ❗ High churn (~39%) indicates poor retention
-* ❗ Default losses exceed revenue → unsustainable model
-* ❗ Revenue is concentrated among a small % of customers
-* ❗ Engagement drop is a strong predictor of churn
-* ❗ Retention worsens over time
+* High churn (~39%) indicates poor retention
+* Default losses exceed revenue → unsustainable model
+* Revenue is concentrated among a small % of customers
+* Engagement drop is a strong predictor of churn
+* Retention worsens over time
 
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 * Improve **credit risk policies** to reduce defaults
 * Introduce **engagement strategies** (nudges, rewards)
@@ -166,7 +166,7 @@ Key transformations performed:
 
 ---
 
-## 🛠️ Tools & Skills Used
+## Tools & Skills Used
 
 * SQL (Advanced)
 
@@ -179,7 +179,7 @@ Key transformations performed:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Import dataset into SQL Server
 2. Run data cleaning scripts
@@ -188,7 +188,7 @@ Key transformations performed:
 
 ---
 
-## 📌 Project Outcome
+## Project Outcome
 
 This project demonstrates the ability to:
 
@@ -205,4 +205,3 @@ This project demonstrates the ability to:
 
 ---
 
-⭐ If you found this useful, feel free to star the repository!
